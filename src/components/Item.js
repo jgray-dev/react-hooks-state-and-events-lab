@@ -3,10 +3,6 @@ import React, {useState} from "react";
 function Item({ name, category }) {
   const [inCart, setInCart] = useState(false) 
 
-  function changeCart() {
-    setInCart(!inCart)
-  }
-
   return (
     <li className="">
       <span>{name}</span>
